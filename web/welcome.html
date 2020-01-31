@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--FONT_AWESOME-->
+    <script src="https://kit.fontawesome.com/68969fce3d.js" crossorigin="anonymous"></script>
+    
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="app.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700&display=swap" rel="stylesheet">
+    
+    <title>UPASTHITI!</title>
+  </head>
+  <body>
+      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">UPASTHITI</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target"#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navlinks">
+            <ul class="navbar-nav">
+                <li class="nav-items">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" class="nav-link">REPORTS</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+      <form action="level_chooser.jsp" method="post">
+      <section class="container-fluid px-0">
+          <div class="row align-items-center">
+              <div id="headingGroup" class="col-lg-6 text-white bob text-center d-lg-block mt-5"><div>
+                <h2>SCHOOL</h2>
+                <i class="fas fa-school d-none d-lg-inline"></i>
+                  <p class="lead">Schools in Sikkim are located in different terrain and during monsoon season it's very difficult to reach every school to get data. In govt sector sometimes we need data immediately in such scenario creating data is difficult. This Web-Portal which can store data of all student. The data storage is in school level, block level, district level and state level.</p>
+                  <tr>
+                      <td><input class="btn btn-info" type="submit" value="SCHOOL" name="level"></td>
+                  </tr>
+
+                 </div>
+                </div>
+              <div class="col-lg-6">
+                  <img class="img-fluid" src="0.jpg" alt="#">
+              </div>
+
+          </div>
+
+      </section>
+<!--alternate section starts-->      
+<section class="container-fluid px-0">
+    <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="2.jpg" alt="#" >
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 bob mb-5 mb-md-0">
+                <h2>BLOCK</h2>
+                <i class="fas fa-school d-none d-lg-inline"></i>
+                <p class="lead">The Block comprises of many schools and block can access all the data from a school. Block can also send regulation to the schools and send custom their own report to the higher level for the convenience</p>
+                <tr>
+                    <td><input class="btn btn-info" type="submit" value="BLOCK" name="level"></td>
+                </tr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!--second row-->
+    <div class="row align-items-center content">
+        
+        <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 bob mb-5 mb-md-0">
+                <h2>DISTRICT</h2>
+                <i class="fas fa-school d-none d-lg-inline"></i>
+                <p class="lead">District serve a major node in information flow. District have ability to access and control the flow of information. District serve directly to the State of Sikkim.</p>
+                <tr>
+                    <td><input class="btn btn-info" type="submit" value="DISTRICT" name="level"></td>
+                </tr>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="img-fluid" src="3.jpg" alt="#" >
+        </div>
+    </div>
+    <!--THIRD ROW-->
+    <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="4.jpg" alt="#" >
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 bob mb-5 mb-md-0">
+                <h2>STATE</h2>
+                <i class="fas fa-school d-none d-lg-inline"></i>
+                <p class="lead">The State of Sikkim have ultimate authority on the database and have ability to access the data on individul student of whole state. This allow state to make better policies and give the instant feedback on reports received.</p>
+                <tr>
+                    <td><input class="btn btn-info" type="submit" value="STATE" name="level"></td>
+                </tr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+    $(function (){
+        $(document).scroll(function(){
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop()> $nav.height())
+        })
+    })
+    </script>
+      </form>
+</body>
+</html>

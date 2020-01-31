@@ -1,0 +1,53 @@
+<html>
+    <head>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="b.css"> 
+  <title>New Student</title>
+</head>
+    <body>
+      <div>
+        <h1 class="display-4">New Student</h1>
+        <form action="new_student.jsp" method="post">
+            <table>
+      <tr>
+                    <td><input type="text" name="student_name" placeholder="STUDENT NAME" required></td>
+                    <td><input type="text" name="fathers_name" placeholder="FATHERS NAME" required></td>
+      </tr>
+      <tr>
+                    <td><input type="text" name="birth_date" placeholder="D.O.B" required></td>
+                    <td><input type="text" name="mothers_name" placeholder="MOTHERS NAME" required></td>
+      </tr>
+      <tr>
+                    <td>
+                        <label class="male" for="male">Male:</label>
+          <input class="male" id="male" type="radio" name="gender" value="male" required>
+          <label class="female" for="female">Female:</label>
+          <input class="female" id="female" type="radio" name="gender" value="female" required>
+                    </td>
+                    <td><input type="text" name="city" placeholder="CITY" required></td>
+      </tr>
+      <tr>
+                    <td><input type="number" name="mobile_no" placeholder="MOBILE_NO" required></td>
+                    <td><input type="text" name="pincode" placeholder="PINCODE" required></td>
+      </tr>
+      <tr>
+                    <td><input type="text" name="email_id" placeholder="EMAIL_ID" required></td>
+                    <td><input type="number" name="year" placeholder="YEAR" required></td>
+      </tr>
+      <tr>
+                    <td><input type="text" name="adhar_no" placeholder="AADHAAR NO" required></td>
+                    <td><input type="text" name="address" placeholder="ADDRESS" required></td>
+      </tr>
+      <tr>
+                    <td><input type="text" name="class_name" placeholder="CLASS" required></td>
+                    <td></td>
+      </tr>
+      <tr>
+                    <td><input class="btn btn-success" type="submit" value="SAVE"></td>
+      </tr>
+            </table>
+        </form>
+      </div>
+    </body>
+</html>
